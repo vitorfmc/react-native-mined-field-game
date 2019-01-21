@@ -1,0 +1,4 @@
+#Sun Jan 20 18:43:57 BRST 2019
+base.0=/home/vitor/Documents/workspace/curso-react-native/campo_minado/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
