@@ -42,6 +42,7 @@ sudo npm install -g react-native-run-android
 - [Download link](https://developer.android.com/studio/);
 - Extract folder of your choice and run or installer "./bin/studio.sh";
 - Select the option to open an existing project;
+
 ![Android Studio Menu](https://raw.githubusercontent.com/vitorfmc/react-native-minesweeper-game/master/src/images/image_android_studio.png)
 
 - Open or create a Project just to load the Android Studio interface;
