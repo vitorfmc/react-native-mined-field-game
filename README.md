@@ -15,57 +15,59 @@ A study about React Native technology. The goal was to build the famous Mineswee
 
 ### 3. Installation
 
-    1. Instalar o git e o clip
+1. Instalar o git e o clip
 
-        ```
-        $ sudo apt-get install git
-        $ sudo apt install xclip
-        ```
+```
+$ sudo apt-get install git
+$ sudo apt install xclip
+```
 
-    2. Installing Node.js and NPM:
+2. Installing Node.js and NPM:
 
-        ```
-        sudo apt-get update
-        sudo apt-get install nodejs
-        sudo apt-get install npm
-        ```
+```
+sudo apt-get update
+sudo apt-get install nodejs
+sudo apt-get install npm
+```
 
-    3. Installing React Native CLI:
+3. Installing React Native CLI:
 
-        ```
-        sudo npm install -g react-native-cli
-        sudo npm install -g react-native-run-android
-        ```
+```
+sudo npm install -g react-native-cli
+sudo npm install -g react-native-run-android
+```
 
-    4. Installing Android Studio:
+4. Installing Android Studio:
 
-        - [Download link](https://developer.android.com/studio/);
-        - Extract folder of your choice and run or installer "./bin/studio.sh";
-        - Select the option to open an existing project;
-        - Open or create a Project just to load the Android Studio interface;
+- [Download link](https://developer.android.com/studio/);
+- Extract folder of your choice and run or installer "./bin/studio.sh";
+- Select the option to open an existing project;
+![Android Studio Menu](https://raw.githubusercontent.com/vitorfmc/react-native-minesweeper-game/master/src/images/image_android_studio.png)
+
+- Open or create a Project just to load the Android Studio interface;
 
 ### 4. Executing the application
 
-    1. Execute the emulator;
-    2. If you is running the firs time, or added a new lib, run: 
-    
-    ```
-    rm -rf node_modules && npm install"
-    ```
+1. Execute the emulator;
+2. If you is running the firs time, or added a new lib, run: 
 
-    3. In the project folder: 
-    
-    ```
-    $ npm start -- --reset-cache
-    ```
+```
+rm -rf node_modules && npm install"
+```
 
-    4. In another terminal, execute in the project: 
+3. In the project folder: 
 
-    ```
-    $ react-native run-android
-    ```
+```
+$ npm start -- --reset-cache
+```
 
-    5. In the emulator, enabled hot deploy by pressing "ctrl + m";
+4. In another terminal, execute in the project: 
+
+```
+$ react-native run-android
+```
+
+5. In the emulator, enabled hot deploy by pressing "ctrl + m";
 
 ### 5. Generation APK
 
